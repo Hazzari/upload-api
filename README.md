@@ -7,6 +7,9 @@ API для загрузки файлов на сервер в количеств
 
 С ограничениями по размеру и формату файлов.
 
+Демо проекта развернуто на 
+[AWS-demo-api](http://18.221.147.170/api/v1/swagger/)
+
 Для запуска проекта нужно добавить файл .env.prod в корень проекта.
 
 Пример файла:
@@ -50,7 +53,7 @@ PGADMIN_DEFAULT_PASSWORD=amin
 #Запуск
 docker-compose -f docker-compose.prod.yml up -d --build
 #Миграции
-docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --noinput
+docker-compose -f docker-compose.prod.yml exec web python manage.py migrate
 #Статика
 docker-compose -f docker-compose.prod.yml exec web python manage.py collectstatic
 #Суперпользователь

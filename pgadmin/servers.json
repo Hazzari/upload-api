@@ -1,0 +1,13 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "Dockerized",
+            "Group": "Servers",
+            "Port": 5432,
+            "Username": "image_uploader_user",
+            "Host": "db",
+            "SSLMode": "prefer",
+            "MaintenanceDB": "postgres"
+        }
+    }
+}

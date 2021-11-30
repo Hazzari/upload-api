@@ -45,7 +45,7 @@ POSTGRES_USER="image_uploader_user"
 POSTGRES_PASSWORD="password"
 
 PGADMIN_DEFAULT_EMAIL=admin@example.com
-PGADMIN_DEFAULT_PASSWORD=amin
+PGADMIN_DEFAULT_PASSWORD=admin
 ```
 
 запуск докера:
@@ -62,13 +62,13 @@ docker-compose -f docker-compose.prod.yml exec web python manage.py createsuperu
 ```
 
 Адрес сервиса списка доступных API:
-[LIST API](http://localhost/api/v1/swagger/)
+[LIST API](http://127.0.0.1/api/v1/swagger/)
 
-[Регистрация](http://localhost/api/v1/user/)
-[Запрос токена](http://18.221.147.170/api/v1/token/both/)
-[Обновление токена](http://18.221.147.170/api/v1/token/access/)
+[Регистрация](http://127.0.0.1/api/v1/user/)
+[Запрос токена](http://127.0.0.1/api/v1/token/both/)
+[Обновление токена](http://127.0.0.1/api/v1/token/access/)
 
 
-[Загрузка файлов](http://localhost/api/v1/upload/)
+[Загрузка файлов](http://127.0.0.1/api/v1/upload/)
 Только для зарегистрированных, заголовок: 
 {'Authorization: Bearer <Token>'}

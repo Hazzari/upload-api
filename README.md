@@ -65,9 +65,10 @@ docker-compose -f docker-compose.prod.yml exec web python manage.py createsuperu
 [LIST API](http://localhost/api/v1/swagger/)
 
 [Регистрация](http://localhost/api/v1/user/)
-[Запрос токена](http://localhost/api/v1/auth/jwt/create/)
+[Запрос токена](http://18.221.147.170/api/v1/token/both/)
+[Обновление токена](http://18.221.147.170/api/v1/token/access/)
 
 
 [Загрузка файлов](http://localhost/api/v1/upload/)
-Только для зарегистрированных, отправка заголовком: 
-{Authorization: Bearer <Token>}
+Только для зарегистрированных, заголовок: 
+{'Authorization: Bearer <Token>'}

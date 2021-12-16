@@ -7,7 +7,7 @@ API для загрузки файлов на сервер в количеств
 
 С ограничениями по размеру и формату файлов.
 
-Демо проекта развернуто на 
+Демо проекта развернуто на:    
 [AWS-demo-api](http://ec2-18-222-114-183.us-east-2.compute.amazonaws.com/api/v1/swagger/)    
 [AWS-front-api](http://ec2-18-117-110-164.us-east-2.compute.amazonaws.com)    
 

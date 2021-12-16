@@ -64,10 +64,9 @@ docker-compose -f docker-compose.prod.yml exec web python manage.py createsuperu
 Адрес сервиса списка доступных API:
 [LIST API](http://127.0.0.1/api/v1/swagger/)
 
-[Регистрация](http://127.0.0.1/api/v1/user/)
-[Запрос токена](http://127.0.0.1/api/v1/token/both/)
-[Обновление токена](http://127.0.0.1/api/v1/token/access/)
-
+[Регистрация](http://127.0.0.1/api/v1/user/)    
+[Запрос токена](http://127.0.0.1/api/v1/token/both/)   
+[Обновление токена](http://127.0.0.1/api/v1/token/access/)   
 
 [Загрузка файлов](http://127.0.0.1/api/v1/upload/)
 Только для зарегистрированных, заголовок: 
